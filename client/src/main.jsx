@@ -10,9 +10,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      domain="dev-4pv0mifib4in2xx4.us.auth0.com"
      clientId="avOmM4NMLencoBqP1wt3KQJrLSRoHiBu"
      authorizationParams={{
-      redirect_uri: "http://localhost:5173"
+      redirect_uri: "https://room-finder-project.vercel.app"
      }}
-     audience="http://localhost:8000"
+     audience="https://room-finder-project-server.vercel.app"
      scope="openid profile email"
     >
       <App />
