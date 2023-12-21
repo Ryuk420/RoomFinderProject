@@ -1,7 +1,7 @@
 import {auth} from 'express-oauth2-jwt-bearer'
 
 const jwtCheck = auth({
-    audience: "https://room-finder-project-server.vercel.app",
+    audience: "http://localhost:8000",
     issuerBaseURL: "https://dev-4pv0mifib4in2xx4.us.auth0.com",
     tokenSigningAlg: "RS256"
 })
