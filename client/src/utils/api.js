@@ -4,7 +4,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 export const api = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://room-finder-project-server.vercel.app/api",
 });
 
 export const getAllProperties = async () => {
